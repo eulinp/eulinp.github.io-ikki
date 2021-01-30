@@ -1,0 +1,722 @@
+@media screen and (min-width: 501px) {
+body{
+    background-color: black;
+    font-family: Comic Sans MS;
+    color: #dddddd;
+    overflow-x: hidden;
+
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background: rgba(0,0,0,.5);
+}
+
+
+#header-img{
+    width: 80px;
+    padding-left: 40px;
+}
+
+nav{
+    flex-basis: 50%;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 25%;
+}
+nav ul{
+    width: 100%;
+    margin-top: 20px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #eeeeee;
+    padding: 10px 20px;
+    font-size: 1.5em;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    
+}
+section div:first-child{
+    flex-basis: 50%;
+    width: 50%;
+}
+section div:first-child img{
+    width: 300px;
+ }
+section div:last-child{
+    flex-basis: 50%;
+    position: relative;
+ }
+
+ section div:last-child h1{
+    font-size: 20pt;
+ }
+
+ section div:last-child h3{
+    font-size: 16pt;
+    width: 60%;
+ }
+
+ .button{
+     width: auto;
+     background-color: orange;
+     border-radius: 12pt;
+     border: none;
+     color: #dddddd;
+     text-transform: uppercase;
+     text-decoration: none;
+     padding: 10px 20px;
+ }
+
+ #decoration1{
+     position: absolute;
+     top: -40px;
+     right: 150px;
+     width: 20%;
+ }
+
+ #decoration2{
+    position: absolute;
+    top: 70px;
+    right: -50%;
+    width: 60%;
+    
+}
+
+
+
+#separador{
+    background: url(ikki/tra-1.svg);
+    background-attachment: local;
+    width: 120%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: repeat-x;
+    margin-left: -10%;
+    position: relative;
+    margin-top: 10%;
+    overflow: hidden;
+    
+}
+#separador h2{
+    position: absolute;
+    text-transform: uppercase;
+    top: 45%;
+    left: 15%;
+}
+#separador h5{
+    position: absolute;
+    text-transform: uppercase;
+    top: 60%;
+    left: 35%;
+}
+
+#foto1{
+    position: absolute;
+    width: 40%;
+    margin-left: 55%;
+    margin-top: 0%;
+    filter: opacity(0.5);
+}
+
+#rect-1{
+    position: absolute;
+    width: 5%;
+    top: 50%;
+    left: 5%;
+}
+
+#rect-2{
+    position: absolute;
+    width: 5%;
+    top: 65%;
+    left: 25%;
+}
+
+#decoration2{
+    position: relative;
+    width: 15%;
+    left: 70px;
+    top: 200px;
+    transform: rotate(40deg);
+}
+#decoration3{
+    position: relative;
+    width: 15%;
+    left: 50%;
+    top: 50%;
+    transform: rotate(40deg);
+}
+#decoration4{
+    position: relative;
+    width: 15%;
+    left: -15%;
+    top: 65%;
+    transform: rotate(40deg);
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.principal{
+    width: 50%;
+}
+
+.principal img{
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 16pt;
+}
+.principal img:hover{
+    transform: scale(1.2);
+}
+
+.secundarias{
+    width: 50%;
+}
+
+.secundarias img{
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 16pt;
+}
+.secundarias img:hover{
+    transform: scale(1.2);
+}
+
+#info{
+    margin-top: 100px;
+    position: relative;
+}
+#info h2{
+    font-size: 25pt;
+    margin-left: 15%;
+}
+#info h4{
+    font-size: 16pt;
+    margin-left: 15%;
+}
+.fotos{
+    display: flex;
+    flex-direction: row;
+}
+
+.fotos .tip{
+    width: 30%;
+    margin: 15px;
+    background: #cccccc;
+    border: 4px solid #cccccc;
+    text-align: center;
+}
+.fotos h2{
+    font-size: 16pt;
+}
+.fotos .tip:hover{
+    border: 4px solid orange;
+    transform: scale(1.1);
+}
+
+.fotos .tip h2{
+    color: darkslategrey;
+    padding: 5px 8px;
+    margin: auto !important;
+}
+
+
+.fotos .tip img{
+    width: 95%;
+    height: 70%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+#decoration5{
+    position: relative;
+    width: 13%;
+    top: 130px;
+}
+#decoration6{
+    position: relative;
+    width: 8%;
+    bottom: 100px;
+    left: 90%;
+}
+
+#contacto h2{
+    font-size: 35pt;
+    text-align: right;
+    padding-right: 30%;
+    text-transform: uppercase;
+}
+
+#decoration7{
+    position: relative;
+    width: 12%;
+    top: 50px;
+    left: 80%;
+    transform: rotate(190deg);
+}
+
+#decoration8{
+    position: relative;
+    width: 6%;
+    top: 50px;
+    left: 10%;
+}
+
+#decoration9{
+    position: relative;
+    width: 14%;
+    bottom: 200px;
+    left: 70%;
+    transform: rotate(60deg);
+}
+#decoration10{
+    position: relative;
+    width: 14%;
+    bottom: 150px;
+    right: 10%;
+    transform: rotate(60deg);
+}
+#decoration11{
+    position: relative;
+    width: 9%;
+    bottom: 100px;
+    left: 0%;
+    transform: rotate(60deg);
+}
+
+.hr{
+    margin: 15px 0px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(45deg, red, blue);
+}
+
+form{
+    width: 70%;
+    background: rgba(31, 7, 139, 0.5);
+    padding: 35px 15px;
+    border-radius: 16pt;
+    margin: auto;
+}
+
+form h3{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+form label{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 25px 20px;
+}
+
+form input{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    border-radius: 12pt;
+}
+
+form input[type="submit"]{
+    position: relative;
+    width: 20%;
+    margin: auto;
+    left: 65%;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+}
+@media screen and (max-width: 500px) {
+    body{
+        background-color: black;
+        font-family: Comic Sans MS;
+        color: #dddddd;
+        overflow-x: hidden;
+    
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        background: rgba(0,0,0,.5);
+    }
+    
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+    
+    
+    
+    #header-img{
+        width: 60px;
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+    
+    nav{
+       flex-basis: 100%;
+        margin-top: 20px;
+        padding: 0px 0px 0px 0px;
+    }
+    nav ul{
+        width: 100%;
+        margin-top: 20px;
+    }
+    nav ul li{
+        display: inline;
+        list-style: none;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #eeeeee;
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        
+    }
+    section div:first-child{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    section div:first-child img{
+        width: 250px;
+     }
+    section div:last-child{
+        position: relative;
+        width: 100%;
+     }
+    
+     section div:last-child h1{
+        font-size: 1.3em;
+        width: 80%;
+        margin: auto;
+     }
+    
+     section div:last-child h3{
+        font-size: 1.2em;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+     }
+    
+     .button{
+         background-color: orange;
+         position: absolute;
+         border-radius: 12pt;
+         border: none;
+         color: #dddddd;
+         text-transform: uppercase;
+         text-decoration: none;
+         padding: 10px 20px;
+         margin-left: 25%;
+         margin-top: 20px;
+     }
+    
+     #decoration1{
+         position: absolute;
+         top: 0px;
+         right: 10px;
+         width: 20%;
+     }
+     
+    
+    #separador{
+        background: url(ikki/tra-1.svg);
+        background-attachment: local;
+        width: 104%;
+        height: 250px;
+        background-size: contain;
+        background-repeat: repeat-x;
+        margin-left: -2%;
+        position: relative;
+        margin-top: 10%;
+        overflow: hidden;
+        
+    }
+    #separador h2{
+        position: absolute;
+        text-transform: uppercase;
+        top: 25%;
+        left: 2%;
+        font-size: 1em;
+    }
+    #separador h5{
+        position: absolute;
+        text-transform: uppercase;
+        top: 35%;
+        left: 35%;
+        
+        font-size: .8em;
+    }
+    
+    #foto1{
+        position: absolute;
+        width: 40%;
+        margin-left: 55%;
+        margin-top: 0%;
+        filter: opacity(0.5);
+    }
+    
+    #rect-1{
+        position: absolute;
+        width: 5%;
+        top: 40%;
+        left: 5%;
+    }
+    
+    #rect-2{
+        position: absolute;
+        width: 5%;
+        top:46%;
+        left: 25%;
+    }
+    
+    #decoration2{
+        position: relative;
+        width: 15%;
+        left: 300px;
+        top: 0px;
+        transform: rotate(40deg);
+    }
+    #decoration3{
+        position: relative;
+        width: 15%;
+        left: 50%;
+        top: 130px;
+        transform: rotate(40deg);
+    }
+    #decoration4{
+        position: relative;
+        width: 15%;
+        left: -15%;
+        top: 5%;
+        transform: rotate(40deg);
+    }
+    
+    .images{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .principal{
+        width: 50%;
+    }
+    
+    .principal img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 16pt;
+    }
+    .principal img:hover{
+        transform: scale(1.2);
+    }
+    
+    .secundarias{
+        width: 50%;
+    }
+    
+    .secundarias img{
+        width: 90%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 16pt;
+    }
+    .secundarias img:hover{
+        transform: scale(1.2);
+    }
+    
+    #info{
+        margin-top: 0px;
+        position: relative;
+    }
+    #info h2{
+        font-size: 1.4em;
+        margin-left: 15%;
+    }
+    #info h4{
+        font-size: 1.2em;
+        margin-left: 15%;
+        padding-right: 20px;
+    }
+    .fotos{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fotos .tip{
+        width: 50%;
+        margin: 10px auto;
+        background: #cccccc;
+        border: 4px solid #cccccc;
+        text-align: center;
+    }
+    .fotos h2{
+        font-size: 16pt;
+    }
+    .fotos .tip:hover{
+        border: 4px solid orange;
+        transform: scale(1.1);
+    }
+    
+    .fotos .tip h2{
+        color: darkslategrey;
+        padding: 5px 8px;
+        margin: auto !important;
+    }
+    
+    .fotos .tip img{
+        width: 95%;
+        height: 70%;
+        object-fit: cover;
+        padding: 0px;
+    }
+    
+    #decoration5{
+        position: relative;
+        width: 13%;
+        top: 130px;
+    }
+    #decoration6{
+        position: relative;
+        width: 8%;
+        bottom: 140px;
+        left: 90%;
+    }
+    
+    #contacto h2{
+        font-size: 3em;
+        text-align: center;
+        margin: 0px;
+        padding-right: 0%;
+        text-transform: uppercase;
+    }
+    
+    #decoration7{
+        position: relative;
+        width: 12%;
+        top: 0px;
+        left: 85%;
+        transform: rotate(170deg);
+    }
+    
+    #decoration8{
+        position: relative;
+        width: 6%;
+        top: 15px;
+        left: -5%;
+    }
+    
+    #decoration9{
+        position: relative;
+        width: 14%;
+        bottom: 0px;
+        left: 90%;
+        transform: rotate(60deg);
+    }
+    #decoration10{
+        position: relative;
+        width: 14%;
+        bottom: 0px;
+        right: 10%;
+        transform: rotate(190deg);
+    }
+    #decoration11{
+        position: relative;
+        width: 9%;
+        bottom: 0px;
+        left: 0%;
+        transform: rotate(60deg);
+    }
+    
+    .hr{
+        margin: 15px 0px;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(45deg, red, blue);
+    }
+    
+    form{
+        width: 80%;
+        background: rgba(31, 7, 139, 0.5);
+        padding: 35px 15px;
+        border-radius: 16pt;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form h3{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        padding: 15px;
+    }
+    
+    form label{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        padding: 25px 20px;
+    }
+    
+    form input{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        padding: 15px;
+        border-radius: 12pt;
+    }
+    
+    form input[type="submit"]{
+        position: relative;
+        width: 100px;
+        margin: auto;
+        margin-top: 10px;
+        padding: 15px;
+    }
+}
